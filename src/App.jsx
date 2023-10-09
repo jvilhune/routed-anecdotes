@@ -174,6 +174,7 @@ const CreateNew = (props) => {
   }
 
   const handleReset = (event) => {
+    console.log('event', event);
     console.log('content', content);
     console.log('author', author);
     console.log('info', info);
